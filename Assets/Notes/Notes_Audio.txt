@@ -1,0 +1,72 @@
+"Modern UI SFX" - Andrea Baroni, Cyberleaf Studio, andreabaroni.com
+"Chiptone" -  Tom Vian (@SFBTom), SFB Games, SFBGames.com 
+
+/*
+    
+    //CHARACTER 
+    
+    //Not Ready
+    Land From Jump 
+
+    Ladder - Enter
+    Ladder - Stay
+    Ladder - Exit
+
+    Character Slam On Collision
+
+    Walk 
+        - Ground
+        - Ladder
+        - Grate
+        - Vent
+
+    Expansive Force Collect Object In Range
+
+    //Ready
+
+    Jump (OnJumpAction, JumpController)
+
+    ExpansiveForce Loop, OnExpandStay, ExpansiveForce
+    ExpansiveForce Enter, OnExpandEnter, ExpansiveForce
+    ExpansiveForce Exit, OnExpandExit, ExpansiveForce
+
+    Level Up Enter, UpgradeEnter, UpgradeStatusController
+    Level Up Burst Effect, OnForceBurst, VisualUpgradeController
+
+    Level Up PopUp Enter, OnPopUpOpen, CameraController
+    Level Up PopUp Exit, OnTutorialComplete, TutorialMananger
+
+    Force Burst, OnForceBurstEnter, BurstForceController
+    Force Jump , OnForceJumpEnter, ForceProjectCharacterController
+    Force Pin, OnPinActionEnter, PinForceController
+    
+    //ENVIRONMENT
+
+    Button Switch In, OnButtonSwitchOn, ButtonSwitchController
+    Button Switch Out, OnButtonSwitchOff, ButtonSwitchController
+
+    Button Pressure In, OnButtonPressureSwitchOn, ButtonPressureController
+    Button Pressure Out, OnButtonPressureSwitchOff, ButtonPressureController
+
+    Button Timer In, OnTimerStart, ButtonTimerController
+    Button Timer Stay, OnTimerUpdate, ButtonTimerController
+    Button Time Out, OnTimerEnd, ButtonTimerController
+
+    Door Open, OnDoorOpen, DoorController
+    Door Close, OnDoorClose, DoorController
+
+    Security Door Accepted, OnScanAccepted, DoorDetectionController
+    Security Door Denied, OnScanDenied, DoorDetectionController
+    
+    Security Door Scan Start, OnScanStart, DoorDetectionController
+    Security Door Scan End,  OnScanEnd, DoorDetectionController
+
+    Vent Door Pull Enter, OnWiggleUpdateEnter, WiggleController
+    Vent Door Pull Exit, OnWiggleUpdateExit, WiggleController
+    Vent Door Pop, OnWiggleRelease, WiggleController
+    Vent Door Collide, OnVentEntranceCollision, VentEntranceController
+
+    //Needs looking into as it involves both characters and box
+    Box Hit, OnCollisionSound, ForceInteractableObjectController
+
+    */

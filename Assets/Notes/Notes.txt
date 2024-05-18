@@ -1,0 +1,31 @@
+Laser
+Weight Detect
+Moving Platform
+Ice Pipe
+Face Scanner
+
+Better Enemy Impact Sprites
+Lerp Camera Force Direcion Burst
+Enemies find closest tile if can reach destination
+Permanent Directional Field
+Laser Guns
+	- When Influened fire after time, bounce lasers
+	- Repulse
+Surveillance Turret
+LandMines
+Buttons
+Ladder Extend Drop
+Force Expansive Should Effect - Buttons
+
+Abilities
+- Pin Object
+
+Level Ideas based on Abilities
+
+Expansive Force
+
+Burst Force
+
+Pin
+
+Force Jump

@@ -1,0 +1,59 @@
+
+- Upgrade
+
+1. Puzzle 13
+	- Exapapansive Force
+2. Puzzle 0
+	- Expansive Force
+3. Puzzle 1
+	- Expansive Force
+4. Puzzle 3
+	- Expansive Force
+5. Puzzle 4
+	- Expansive Force
+6. Puzzle 9
+	- Expansive Force
+
+- Upgrade
+
+7. Puzzle 10
+	- Expansive Force
+	- Expansive Burst
+8. Puzzle 7
+	- Expansive Force
+	- Expansive Burst
+9. Puzzle 5
+	- Expansive Force
+	- Expansive Burst
+
+- Upgrade
+
+10. Puzzle 11
+	- Expansive Force
+	- Expansive Burst
+	- Expansive Pin
+11. Puzzle 2
+	- Expansive Force
+	- Expansive Burst
+	- Expansive Pin
+
+
+13. Puzzle 12
+	- Expansive Force
+	- Expansive Burst
+	- Expansive Pin
+	- Expansive Jump
+
+- Upgrade 
+
+14. Puzzle 8
+	- Expansive Force
+	- Expansive Burst
+	- Expansive Pin
+	- Expansive Jump
+
+12. Puzzle 6
+	- Expansive Force
+	- Expansive Burst
+	- Expansive Pin
+	- Expansive Jump

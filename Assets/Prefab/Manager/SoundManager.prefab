@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5688546614383815339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5688546614383815336}
+  - component: {fileID: 5688546614383815337}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5688546614383815336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5688546614383815339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5688546614383815337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5688546614383815339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7efd7da997cb72479c9e18f119516fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundClipControllerPrefab: {fileID: 608882141420402588, guid: 440a9f6232c804f46901454bb4b216b6, type: 3}
+  loopingAudioControllerPrefab: {fileID: 3443319093107859341, guid: 55b7586ead8c6e047b64c6ba35107fe8, type: 3}
+  audioClipActionCharacterJump: {fileID: 0}
+  audioClipActionCharacterLanded: {fileID: 8300000, guid: b0eda29ab5edbf747bd9e392afe41569, type: 3}
+  audioClipActionCharacterLeftFoot: {fileID: 8300000, guid: 6de35bcc21353564388fb86492ed9c61, type: 3}
+  audioClipActionCharacterRightFoot: {fileID: 8300000, guid: 7055a1f77fb212b4eacaa6131066e983, type: 3}
+  audioClipActionCharacterLeftFootLadder: {fileID: 8300000, guid: 79997550e539bbd4c86e5aefebe6eed5, type: 3}
+  audioClipActionCharacterRightFootLadder: {fileID: 8300000, guid: 77f648e44fee4eb49967b56abe11e69f, type: 3}
+  audioClipActionCharacterKnockedOut: {fileID: 8300000, guid: 5f619d308d4fc9446a083714f2c2c8a5, type: 3}
+  audioClipActionCharacterImpact: {fileID: 0}
+  audioClipActionExpansiveForceLoop: {fileID: 8300000, guid: 60303fbbccf724b4e986de9dce3ac5d4, type: 3}
+  audioClipActionLevelUpEnter: {fileID: 8300000, guid: adebb7479e4ff854e862bbd2b694f254, type: 3}
+  audioClipActionLevelUpBurstEffect: {fileID: 8300000, guid: 07adc5c0dcbd1c0468f4bb9b4fe8fa2f, type: 3}
+  audioClipActionLevelUpPopUpEnter: {fileID: 8300000, guid: 38e1c11513a02084bb7c876f25d18b89, type: 3}
+  audioClipActionLevelUpPopUpExit: {fileID: 8300000, guid: 708b59227efce1a4087e3475120e5291, type: 3}
+  audioClipActionForceBurstEnter: {fileID: 8300000, guid: 91d6495d738c0624e8786764579e2d56, type: 3}
+  audioClipActionForceJumpEnter: {fileID: 8300000, guid: c8af90effcc946a4fafc9e3803934976, type: 3}
+  audioClipActionForcePinEnter: {fileID: 8300000, guid: 17a44705bc1db934da7792633e8752ed, type: 3}
+  audioClipActionButtonSwitchIn: {fileID: 8300000, guid: 17dcd1bb920815844a1a61626cdeab8c, type: 3}
+  audioClipActionButtonSwitchOut: {fileID: 8300000, guid: 458377c9ad6143a4b927000a61a0ad7c, type: 3}
+  audioClipActionButtonPressureIn: {fileID: 8300000, guid: 17dcd1bb920815844a1a61626cdeab8c, type: 3}
+  audioClipActionButtonPressureOut: {fileID: 8300000, guid: 458377c9ad6143a4b927000a61a0ad7c, type: 3}
+  audioClipActionButtonTimerIn: {fileID: 8300000, guid: 17dcd1bb920815844a1a61626cdeab8c, type: 3}
+  audioClipActionButtonTimerOut: {fileID: 8300000, guid: 458377c9ad6143a4b927000a61a0ad7c, type: 3}
+  audioClipActionButtonTimerLoop: {fileID: 8300000, guid: 3df4bdfed1fb4904a8a1b0f664c20e63, type: 3}
+  audioClipActionDoorOpenStart: {fileID: 8300000, guid: b4f47ad0668394744be3e9530b8819c1, type: 3}
+  audioClipActionDoorCloseStart: {fileID: 8300000, guid: b4f47ad0668394744be3e9530b8819c1, type: 3}
+  audioClipActionDoorOpenEnd: {fileID: 8300000, guid: 88240e5045ed14246af2fa1f2525b24d, type: 3}
+  audioClipActionDoorCloseEnd: {fileID: 8300000, guid: 045226a340e5cd14b8c7ce5ad57deec3, type: 3}
+  audioClipActionDoorSecurityAccepeted: {fileID: 8300000, guid: 963940b6733b2be4eae750168eda7ad3, type: 3}
+  audioClipActionDoorSecurityDenied: {fileID: 8300000, guid: 98b23ac72111682439762959940fab9c, type: 3}
+  audioClipActionDoorSecurityScanLoop: {fileID: 8300000, guid: 020e0abbed200004b9561fbc72221247, type: 3}
+  audioClipActionVentDoorPullLoop: {fileID: 8300000, guid: 2758358bb50d9e84c9dfd7b57dc6b8ca, type: 3}
+  audioClipActionVentDoorPop: {fileID: 8300000, guid: e8255dd551b90ab4f91ac5dfe5a15bf3, type: 3}
+  audioClipActionVentDoorCollide: {fileID: 8300000, guid: 208a358baa962f242b71190fd78ef0aa, type: 3}
+  audioClipBoxCollision: {fileID: 8300000, guid: 55950cb89ea63704fa5283e2500879c0, type: 3}
+  audioClipAquirePill: {fileID: 8300000, guid: ca34f573aaffacf48b7c514318f8333b, type: 3}
+  loopingAudioControllers: []
